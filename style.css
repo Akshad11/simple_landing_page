@@ -36,6 +36,10 @@
 	justify-content : space-around;
 	align-items : center;
 }
+.container-flex-space-aroundnocenter{
+	display : flex;
+	justify-content : space-around;
+}
 
 .nav_div{
 	width : 100%;
@@ -278,12 +282,84 @@
 	height : 100%;
 }
 
+.greybg{
+	background-color: #F5F7FA;	
+}
+
 .card-flex{
 	width: 250px;
 	height: 250px;
-
+	position: relative;
+	border-radius: 10px;
 }
 
 .card-items{
-	
+	position: absolute;
+}
+
+.card-img{
+	width: 250px;
+	height: 200px;
+	top: 0px;
+	left: 0px;
+}
+
+.card-text{
+	width: 220px;
+	height: 125px;
+	bottom: 0px;
+	left: 15px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-text20{
+	font-size: 17px;
+}
+
+.demobtn{
+	width: 130px;
+	height: 40px;
+	align-items: center;
+}
+
+.footercolor{
+	background-color:  #263238;
+	color: white;
+}
+.footervh{
+	height: 80vh;
+}
+
+.iconcir{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #3B464C ;
+}
+
+.footer40{
+	width: 40%;
+}
+
+.footer60{
+	width: 60%;
+}
+
+.marginleft5{
+	margin-left: 5px;
+}
+
+.ulflex{
+	display:  flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.footerinput{
+	padding: 5px;
+	width: 200px;
+	height: 25px;
+	background-color: #515B60;
+	border-radius:  10px;
 }
